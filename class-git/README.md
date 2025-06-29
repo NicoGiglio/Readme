@@ -800,13 +800,13 @@ Dante Nicolás Martinez
 Parte 7:
 </br>
 
-```sh
-[Introducción](https://drive.google.com/file/d/1slhT1go_QvjT2UxWCwtKh059yHcQTfMu/view?usp=drive_link)
 
-[Práctica](https://drive.google.com/file/d/1trOr0EnQcvLFy1LAqzGo_-W1M5W9Rtvb/view?usp=drive_link)
+[Introducción](<https://drive.google.com/file/d/1slhT1go_QvjT2UxWCwtKh059yHcQTfMu/view?usp=drive_link>)
 
-[PDF](https://drive.google.com/file/d/1LkqdZ8U1qqjR57v3LDzDLLhXScmIXEUK/view?usp=drive_link)
-```
+[Práctica](<https://drive.google.com/file/d/1trOr0EnQcvLFy1LAqzGo_-W1M5W9Rtvb/view?usp=drive_link>)
+
+[PDF](<https://drive.google.com/file/d/1LkqdZ8U1qqjR57v3LDzDLLhXScmIXEUK/view?usp=drive_link>)
+
 
 ## Clase Extra - pip en Python (Clase 11)
 

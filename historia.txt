@@ -1,2 +1,0 @@
-Texto.
-Cambio para segundo commit.
