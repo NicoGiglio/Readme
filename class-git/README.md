@@ -567,7 +567,7 @@ Parte 4:</br>
 
 <br> Sección lectura </br>
 
-```sh 
+```bash 
 #Git nunca borra nada, a menos que nosotros se lo indiquemos. Cuando usamos los comandos git merge o git checkout estamos cambiando de rama o creando un nuevo commit, no borrando ramas ni commits (recuerda que puedes borrar commits con git reset y ramas con git branch -d).
 
 #Git es muy inteligente y puede resolver algunos conflictos automáticamente: cambios, nuevas líneas, entre otros. Pero algunas veces no sabe cómo resolver estas diferencias, por ejemplo, cuando dos ramas diferentes hacen cambios distintos a una misma línea.
@@ -664,13 +664,12 @@ Dante Nicolás Martinez
 Parte 5:
 </br>
 
-```sh
-[Introducción](https://drive.google.com/file/d/15gutGuCKr8CCeAdFBsqWHppWULZ3loI5/view?usp=drive_link)
+[Introducción](<https://drive.google.com/file/d/15gutGuCKr8CCeAdFBsqWHppWULZ3loI5/view?usp=drive_link>)
 
-[Práctica](https://drive.google.com/file/d/1w24NMvM0rNEbZNbTEvvQJ8pSqbPwLTf1/view?usp=drive_link)
+[Práctica](<https://drive.google.com/file/d/1w24NMvM0rNEbZNbTEvvQJ8pSqbPwLTf1/view?usp=drive_link>)
 
-[PDF](https://drive.google.com/file/d/1qC3_3021ygEk9hczRdzwku0prw3dhQl1/view?usp=drive_link)
-```  
+[PDF](<https://drive.google.com/file/d/1qC3_3021ygEk9hczRdzwku0prw3dhQl1/view?usp=drive_link>)
+  
 
 ## CLASE 10-B
 
@@ -702,19 +701,19 @@ Dante Nicolás Martinez
 Parte 6:
 </br>
 
-```sh 
-[Introducción](https://drive.google.com/file/d/1UhpS8jJ9dU5owgWkvXVGVVryosiEV5bJ/view?usp=drive_link)
 
-[Práctica](https://drive.google.com/file/d/1rIdJ-s3o4yvJ5WV1hTzKnn1w59DssFcV/view?usp=drive_link)
+[Introducción](<https://drive.google.com/file/d/1UhpS8jJ9dU5owgWkvXVGVVryosiEV5bJ/view?usp=drive_link>)
 
-[PDF](https://drive.google.com/file/d/1NTGpKOXqoOG7VMwivEXkyY6BY6hUfc7b/view?usp=drive_link) 
-``` 
+[Práctica](<https://drive.google.com/file/d/1rIdJ-s3o4yvJ5WV1hTzKnn1w59DssFcV/view?usp=drive_link>)
+
+[PDF](<https://drive.google.com/file/d/1NTGpKOXqoOG7VMwivEXkyY6BY6hUfc7b/view?usp=drive_link>) 
+ 
 
  ## CLASE 11
 
 <br> Configura tus llaves SSH en local </br>
 
-```sh 
+```bash 
 #Si usamos GitHub solo con usuario y contraseña, si un día perdemos nuestra PC, perdemos todo, nuestras contraseñas y los proyectos de nuestros clientes están todos en riesgo. Esta es la forma en que muchos sitios web son jackeados, para evitar esto tenemos que agregar una capa de seguridad mucho más fuerte. Es aquí donde podemos comenzar a crear el entorno con llaves publicas y privadas. Esto tiene una ventaja, no solo es que nuestra seguridad será más fuerte, si no que ya no tendrás que poner nunca más tu usuario y contraseña.
 
 #En nuestra maquina, debemos crear una llave privada y otra pública, una vez creada la llave pública se la enviamos a GitHub en nuestro repositorio, y le decimos: para este repositorio quiero que uses esta llave pública, de mi llave privada en mi PC, todo esto lo conectamos por un protocolo nuevo, en vez de conectarnos al repositorio por HTTPS, vamos a conectarnos por un protocolo que se llama SSH.
