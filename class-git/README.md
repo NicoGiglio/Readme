@@ -364,13 +364,13 @@ git rm --force: #Elimina los archivos de Git y del disco duro. Git guarda todo, 
 <br>Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
 
 Dante Nicolás Martinez</br>
-```sh
-[Introduccion](https://drive.google.com/file/d/1vy526naHzKlwt6GPLswH1_WWL0BhdMvx/view?usp=drive_link)
 
-[Práctica](https://drive.google.com/file/d/1vy526naHzKlwt6GPLswH1_WWL0BhdMvx/view?usp=drive_link)
+[Introduccion](<https://drive.google.com/file/d/1vy526naHzKlwt6GPLswH1_WWL0BhdMvx/view?usp=drive_link>)
 
-[PDF](https://drive.google.com/file/d/1oLSdOavVUgkHLChYihGw_JBxL03QCqAr/view?usp=drive_link)
-```
+[Práctica](<https://drive.google.com/file/d/1vy526naHzKlwt6GPLswH1_WWL0BhdMvx/view?usp=drive_link>)
+
+[PDF](<https://drive.google.com/file/d/1oLSdOavVUgkHLChYihGw_JBxL03QCqAr/view?usp=drive_link>)
+
 ## Clase 8
 <br> Flujo de trabajo básico con un repositorio remoto parte 8 </br>
 
@@ -418,13 +418,13 @@ git log > log.txt #guardar los logs en un archivo txt
 Dante Nicolás Martinez
 
 Parte 2:</br>
-```sh
-[Introducción](https://drive.google.com/file/d/1jtIod0pcSsWzQCMoNoW1IUCNSsBQ95x9/view?usp=drive_link)
 
-[Práctica](https://drive.google.com/file/d/14_OlorpBLDiYHzcpsqavLhQ0tRlaCN93/view?usp=drive_link)
+[Introducción](<https://drive.google.com/file/d/1jtIod0pcSsWzQCMoNoW1IUCNSsBQ95x9/view?usp=drive_link>)
 
-[PFD](https://drive.google.com/file/d/1eUZKN_15OX4IPUlyk5sQfLeiEsjVYIxZ/view?usp=drive_link)
-```
+[Práctica](<https://drive.google.com/file/d/14_OlorpBLDiYHzcpsqavLhQ0tRlaCN93/view?usp=drive_link>)
+
+[PFD](<https://drive.google.com/file/d/1eUZKN_15OX4IPUlyk5sQfLeiEsjVYIxZ/view?usp=drive_link>)
+
 
 ## Clase 9-A
  <br> Introducción a las ramas o branches de Git parte 9 </br>
@@ -553,21 +553,21 @@ Dante Nicolás Martinez
 
 Parte 4:</br>
 
-```sh 
-[Introduccion](https://drive.google.com/file/d/1Olhji0TDix9hCNSEUDEfKI_TgxWE8Hgp/view?usp=drive_link)
+ 
+[Introduccion](<https://drive.google.com/file/d/1Olhji0TDix9hCNSEUDEfKI_TgxWE8Hgp/view?usp=drive_link>)
 
-[Práctica](https://drive.google.com/file/d/1M-fb5arNqese_kGAczKP1WYDPgWbBxPt/view?usp=drive_link)
+[Práctica](<https://drive.google.com/file/d/1M-fb5arNqese_kGAczKP1WYDPgWbBxPt/view?usp=drive_link>)
 
-[PDF](https://drive.google.com/file/d/1k6QSVmFzFJhK9ykbiw7AWgKX_MXAC9z8/view?usp=drive_link)
+[PDF](<https://drive.google.com/file/d/1k6QSVmFzFJhK9ykbiw7AWgKX_MXAC9z8/view?usp=drive_link>)
 
-```
+
 
 ## CLASE 10-A
  <b> Resolución de conflictos al hacer merge </br>
 
 <br> Sección lectura </br>
 
-```bash 
+```sh 
 #Git nunca borra nada, a menos que nosotros se lo indiquemos. Cuando usamos los comandos git merge o git checkout estamos cambiando de rama o creando un nuevo commit, no borrando ramas ni commits (recuerda que puedes borrar commits con git reset y ramas con git branch -d).
 
 #Git es muy inteligente y puede resolver algunos conflictos automáticamente: cambios, nuevas líneas, entre otros. Pero algunas veces no sabe cómo resolver estas diferencias, por ejemplo, cuando dos ramas diferentes hacen cambios distintos a una misma línea.
@@ -713,7 +713,7 @@ Parte 6:
 
 <br> Configura tus llaves SSH en local </br>
 
-```bash 
+```sh 
 #Si usamos GitHub solo con usuario y contraseña, si un día perdemos nuestra PC, perdemos todo, nuestras contraseñas y los proyectos de nuestros clientes están todos en riesgo. Esta es la forma en que muchos sitios web son jackeados, para evitar esto tenemos que agregar una capa de seguridad mucho más fuerte. Es aquí donde podemos comenzar a crear el entorno con llaves publicas y privadas. Esto tiene una ventaja, no solo es que nuestra seguridad será más fuerte, si no que ya no tendrás que poner nunca más tu usuario y contraseña.
 
 #En nuestra maquina, debemos crear una llave privada y otra pública, una vez creada la llave pública se la enviamos a GitHub en nuestro repositorio, y le decimos: para este repositorio quiero que uses esta llave pública, de mi llave privada en mi PC, todo esto lo conectamos por un protocolo nuevo, en vez de conectarnos al repositorio por HTTPS, vamos a conectarnos por un protocolo que se llama SSH.
@@ -809,5 +809,28 @@ Parte 7:
 
 ## Clase Extra - pip en Python (Clase 11)
 
+<br>
+En Pyhton, pip es un gestor de paquetes estándar (el acrónimo es "Pip Installs Packages" o "Preferred Installer Program").
 
+La función de este gestor, es la de instalar, actualizar y gestionar bibliotecas y paquetes, remitiéndose al Python Package Index, y otros respositorios validados y aprobados.
+
+Las características claves de pip incluyen:
+
+ - Instalación de paquetes PyPI con un sólo comando desde la terminal (pip install nombre_paquete).
+ - Actualizar paquetes existentes con el comando pip install --upgrade nombre_paquete.
+ - Eliminar paquetes con el comando pip uninstall nombre_paquete.
+ - Gestión de dependencias de proyectos (utilizadno requirements.txt).
+
+ Viene incluido por defecto en Python desde la versión 3.4, antes era necesario instalarlo manualmente.
+
+Pip se actualiza frecuentemente, y esto es importante porque implica:
+ 
+ - Correcciones de seguridad (por ejemplo parches para vulnerabilidades).
+ - Nuevas característucas y funcionalidades.
+ - Optimización de rendimiento (instalaciones más rápidas, uso más eficiente de la red y caché, etc.).
+ - Corrección de bugs (solución de errores de comandos, entornos virtuales).
+ - Compatibilidad (adaptación a nuevas versiones, y soporte).
+
+En síntesis, es importante mantener pip actualizado porque por un lado permite evitar errores en paquetes que requieren versiones más modernas del pip, así como para proporcionar la mejor seguridad y eficiencia en el trabajo con este lenguaje.
+</br>
 
